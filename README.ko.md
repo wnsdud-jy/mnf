@@ -34,6 +34,19 @@
 cargo build
 ```
 
+### 로컬 설치
+
+```bash
+cargo install --path .
+```
+
+설치 후에는 바이너리를 바로 실행할 수 있습니다.
+
+```bash
+mnf cli --length 4 --starts-with e --results 3 --max-checks 20
+mnf tui
+```
+
 ### CLI 실행
 
 ```bash

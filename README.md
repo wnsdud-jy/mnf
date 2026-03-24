@@ -34,6 +34,19 @@ Important: this project uses public Mojang profile lookups, so results are shown
 cargo build
 ```
 
+### Install locally
+
+```bash
+cargo install --path .
+```
+
+After that, you can run the binary directly with:
+
+```bash
+mnf cli --length 4 --starts-with e --results 3 --max-checks 20
+mnf tui
+```
+
 ### Run the CLI
 
 ```bash
