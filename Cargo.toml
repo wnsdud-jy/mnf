@@ -1,0 +1,20 @@
+[package]
+name = "mnf"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0"
+async-trait = "0.1"
+clap = { version = "4.5", features = ["derive"] }
+crossterm = { version = "0.28", features = ["event-stream"] }
+futures = "0.3"
+indicatif = "0.17"
+owo-colors = "4.2"
+rand = "0.8"
+ratatui = "0.29"
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1.48", features = ["macros", "rt-multi-thread", "sync", "time"] }
+tokio-util = "0.7"
